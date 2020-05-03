@@ -1,0 +1,142 @@
+{
+  "month": {
+    "label": "Mês",
+    "january": "Janeiro",
+    "february": "Fevereiro",
+    "march": "Março",
+    "april": "Abril",
+    "may": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto",
+    "september": "Setembro",
+    "octuber": "Outubro",
+    "november": "Novembro",
+    "december": "Dezembro"
+  },
+  "dialog": {
+    "generic": {
+      "title": "Oops",
+      "description": "Parece que aconteceu algum erro. Tente novamente em alguns instantes.",
+      "actions": {
+        "retry": {
+          "right": "Tentar novamente",
+          "left": "Cancelar"
+        },
+        "default": "OK"
+      }
+    },
+    "connection": {
+      "title": "Dispositivo sem conexão",
+      "description": "Parece que seu dispositivo está sem conexão."
+    },
+    "timeout": {
+      "title": "Tempo esgotado",
+      "description": "Não foi possível processar seu pedido. Tente novamente em alguns instantes."
+    }
+  },
+  "error": {
+    "invalidUsername": "O e-mail digitado está inválido.",
+    "length": "Este campo deve conter de {{min}} à {{max}} caracteres."
+  },
+  "login": {
+    "title": "Entrar",
+    "hello": {
+      "first": "Olá, ",
+      "second": "seja bem-vindo(a)!"
+    },
+    "document": {
+      "typeDocument": {
+        "first": "Digite seu ",
+        "second": "e-mail."
+      },
+      "inputHint": "teste@tester.com.br"
+    },
+    "password": {
+      "typePassword": {
+        "first": "Agora, digite sua ",
+        "second": "senha",
+        "third": ":"
+      },
+      "retrievePassword": "Recuperar senha de acesso",
+      "enter": "Entrar"
+    }
+  },
+  "recoverPassword": {
+    "newPasswordTitle": "Nova senha",
+    "title": "Recuperar senha",
+    "subtitle": {
+      "first": "Digite seu ",
+      "second": "CPF ",
+      "third": "ou ",
+      "fourth": "CNPJ",
+      "fifth": ":"
+    },
+    "email": {
+      "first": "Agora, digite seu ",
+      "second": "e-mail",
+      "third": ":",
+      "inputHint": "Ex.: email@dominio.com.br"
+    },
+    "verificationCode": {
+      "subtitle": {
+        "first": "Digite o ",
+        "second": "código verificador\n",
+        "third": "para continuar."
+      },
+      "resendCode": "Reenviar código",
+      "sentCode": "Código enviado para\n",
+      "dialog": {
+        "title": "Reenviar código",
+        "desc": "Código reenviado"
+      },
+      "resend": {
+        "label": "Reenviar código",
+        "request": {
+          "first": "Solicite um novo código em ",
+          "secondSingular": "segundo.",
+          "secondPlural": "segundos."
+        }
+      }
+    },
+    "new": {
+      "subtitle": {
+        "first": "Agora, crie sua ",
+        "second": "nova\n",
+        "third": "senha de acesso:"
+      },
+      "hint": "No mínimo 6 caracteres"
+    },
+    "newConfirm": {
+      "subtitle": {
+        "first": "Digite outra vez ",
+        "second": "a sua\n",
+        "third": "nova senha de acesso."
+      },
+      "hint": "A mesma criada anteriormente.",
+      "dialog": {
+        "title": "Senha de acesso alterada com sucesso!",
+        "desc": "Utilize a sua nova senha de acesso criada para entrar em sua conta."
+      }
+    },
+    "inputHint": "Ex.: 123.456.789-21"
+  },
+  "token": {
+    "title": "Autenticação",
+    "typeToken": {
+      "first": "Digite o ",
+      "second": "código de verificação ",
+      "third": "abaixo."
+    },
+    "sentTo": "Código enviado para {{cellphoneNumber}}.",
+    "resend": {
+      "label": "Reenviar código",
+      "request": {
+        "first": "Solicite um novo código em ",
+        "secondSingular": "segundo.",
+        "secondPlural": "segundos."
+      }
+    },
+    "continue": "Continuar"
+  }
+}
